@@ -1,5 +1,3 @@
-import * as React from "react";
-
 const defaultClass = () => {
     return "font-bold px-6 py-2 rounded drop-shadow-lg hover:drop-shadow-none transition active:scale-95"
 }
