@@ -2,13 +2,13 @@ import Emphasize from "../emphasize";
 
 const Hero = () => {
   return (
-    <div class="flex flex-col-reverse text-center md:flex-row md:justify-between md:text-left w-full">
-      <div class="flex flex-col space-y-4 content-center w-full md:w-4/5">
+    <div className="flex flex-col-reverse text-center h-screen justify-center md:flex-row md:justify-between md:text-left w-full">
+      <div className="flex flex-col space-y-4 justify-center content-center w-full md:w-4/5">
         <Emphasize customClass={"text-4xl"}>こんにちは!</Emphasize>
-        <h1 class="w-full">
+        <h1 className="w-full">
           I'm <Emphasize type="1">Yehezkiel</Emphasize>👌🏻
         </h1>
-        <p class="md:max-w-lg">
+        <p className="md:max-w-lg">
           I’m a highly curious 🤔 software developer 😳 that’s highly passionate
           about ✨ latest and upcoming tech ✨ in web 🌎 and mobile 🤳
           development.
@@ -23,8 +23,8 @@ const Hero = () => {
           / <a target="_blank">Twitter</a> / <a target="_blank">GitHub</a>
         </div>
       </div>
-      <div class="flex justify-center max-h-48 md:max-h-full mb-4 md:mb-0">
-        <img class="object-scale-down p-4" src="/images/cheems.svg" />
+      <div className="flex justify-center max-h-48 md:max-h-full mb-4 md:mb-0">
+        <img className="object-scale-down p-4" src="/images/cheems.svg" />
       </div>
     </div>
   );

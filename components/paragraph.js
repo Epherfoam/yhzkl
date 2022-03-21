@@ -1,6 +1,6 @@
 const Paragraph = ({children}) => {
     return ( 
-        <p class="pt-6">{children}</p>
+        <p className="pt-6">{children}</p>
     )
 }
 

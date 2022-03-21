@@ -1,10 +1,10 @@
-const HeaderText = ({left, right}) => {
+const HeaderText = ({left, right, className}) => {
     return (
-        <div class="flex flex-row items-end align-end pb-4">
+        <div className={`flex flex-row items-end align-end pb-4 ${className}`}>
             <h4>
                 {left}
             </h4>
-            <h5 class="px-4 text-neutral-600">
+            <h5 className="px-4 text-neutral-600">
                 / {right}
             </h5>
         </div>

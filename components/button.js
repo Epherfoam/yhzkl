@@ -4,12 +4,12 @@ const defaultClass = () => {
 
 const Button = ({children, type}) => {
     if (type === 'negative') {      
-        return ( <button class={`${defaultClass()} bg-rose-500 hover:bg-rose-600`}>Test</button> )
+        return ( <button className={`${defaultClass()} bg-rose-500 hover:bg-rose-600`}>Test</button> )
     } else if (type === 'neutral') {      
-        return ( <button class={`${defaultClass()}`}>Test</button> )
+        return ( <button className={`${defaultClass()}`}>Test</button> )
     }
     
-    return ( <button class={`${defaultClass()} bg-emerald-500 hover:bg-emerald-600`}>Test</button> )
+    return ( <button className={`${defaultClass()} bg-emerald-500 hover:bg-emerald-600`}>Test</button> )
 }
 
 export default Button;

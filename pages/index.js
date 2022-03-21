@@ -7,19 +7,15 @@ import ProjectCard from '../components/project/projectCard'
 import HeaderText from '../components/headerText'
 import AboutMe from '../components/aboutme/aboutme'
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
+      <Head title={"Home"}/>
       <Container>
-        <Head title={"Home"}/>
         <Hero/>
         <HeaderText left={"My Projects"} right={"私のプロジェクト"} />
       </Container>
       <ProjectCard/>
-      <Container>
-        <HeaderText left={"About Me"} right={"私について"} />
-        <AboutMe />
-      </Container>
         {/* <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -38,3 +34,5 @@ export default function Home() {
   )
 
 }
+
+export default Home
