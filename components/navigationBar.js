@@ -8,7 +8,9 @@ const NavigationBar = () => {
         <div className="py-8 fixed top-0 w-screen bg-neutral-900">
             <Container>
                 <div className="flex justify-between">
-                    <h6>Yehezkiel</h6>
+                    <h6 className="select-none">
+                        Yehezkiel
+                    </h6>
                     <div className="space-x-8">
                         <Link href='/'>
                             Home
