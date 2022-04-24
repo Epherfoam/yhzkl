@@ -1,6 +1,7 @@
 import Emphasize from "../emphasize";
 import Subscript from "../subscript";
 import Paragraph from "../paragraph";
+import MobileHeader from "../header/mobileHeader";
 
 const AboutMe = () => {
     return ( 
@@ -8,7 +9,7 @@ const AboutMe = () => {
             <p>
                 Heyyyy! 😎   
             </p>
-
+            {/* <MobileHeader /> */}
             <Paragraph>
                 My name is Yehezkiel Andrean but you can call me 
                 <Emphasize type="3"> Hez! </Emphasize>
