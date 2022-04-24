@@ -11,6 +11,12 @@ const Projects = () => {
                 <HeaderText left={"My Projects"} right={"私のプロジェクト"} />
             </Container>
                 <ProjectCard/>
+            <div className="flex justify-center text-center py-20">
+                <p>
+                    Other projects are
+                    still under construction...<br />🚧🚧🚧
+                </p>
+            </div>
         </div>
     )
 }
