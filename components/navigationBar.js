@@ -1,7 +1,8 @@
 import Container from "./container"
 import Link from '../components/link'
 import MobileHeader from '../components/header/mobileHeader'
-import { useState, useEffect } from 'react'
+import { default as NextLink } from 'next/link'
+import { useState } from 'react'
 
 const NavigationBar = () => {
 
@@ -11,9 +12,11 @@ const NavigationBar = () => {
         <div className="py-8 fixed top-0 w-screen bg-neutral-900">
             <Container>
                 <div className="flex justify-between">
-                    <h6 className="select-none">
-                        Yehezkiel
-                    </h6>
+                    <NextLink href="/">
+                        <a className="font-bold text-white hover:no-underline" >
+                            Yehezkiel
+                        </a>
+                    </NextLink>
                     {/* more than medium (pc / tablet user) */}
                     <div className="space-x-8 hidden md:block">
                         <Link href='/'>

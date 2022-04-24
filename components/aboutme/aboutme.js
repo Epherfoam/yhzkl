@@ -67,7 +67,11 @@ const AboutMe = () => {
             <h4 className="pt-6">Reaching Out</h4>
 
             <Paragraph>
-                If you have anything to discuss with me, feel free to hit me up by Email or if you’re one of those Twitter 🕊️ guys, I accept DMs too 📩. 
+                If you have anything to discuss with me, feel free to hit me up by 
+                <a href="mailto:yehezkielandrean2000@gmail.com"
+                   target="_blank"
+                > Email </a> 
+                or if you’re one of those Twitter 🕊️ guys, I accept DMs too 📩. 
             </Paragraph>
 
         </div>

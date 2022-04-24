@@ -20,7 +20,15 @@ const Hero = () => {
           >
             LinkedIn
           </a>{" "}
-          / <a target="_blank">Twitter</a> / <a target="_blank">GitHub</a>
+          / <a 
+              href="https://twitter.com/yhzkl_a"
+              target="_blank">
+                Twitter
+          </a>{" "}
+          / <a
+              href="https://github.com/Epherfoam/"
+              target="_blank">GitHub
+          </a>
         </div>
       </div>
       <div className="flex justify-center max-h-48 md:max-h-full mb-4 md:mb-0">
