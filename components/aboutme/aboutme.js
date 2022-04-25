@@ -39,7 +39,7 @@ const AboutMe = () => {
 
             <Paragraph>
                 I’m a final year Computer Science student at BINUS University. 
-                Right now, I’m working as Mobile Developer at Ruparupa, one of the largest home & living e-commerce in Indonesia.
+                Right now, I’m working as a Mobile Developer at Ruparupa, one of the largest home & living e-commerce in Indonesia.
             </Paragraph>
 
             <Paragraph>
@@ -52,7 +52,7 @@ const AboutMe = () => {
             <Paragraph>
                 I usually use React Native, that is oftenly used when I’m working at Ruparupa. But, when it comes to another
                 frameworks, I’ve tried Ionic, Next.js (this is what I used to create this website) and right now, learning Node.js 
-                to challenge myself learning backed stuff, ish.
+                to challenge myself learning backend stuff, ish.
             </Paragraph>
 
             <Paragraph>
