@@ -9,7 +9,7 @@ const Hero = () => {
           I'm <Emphasize type="1">Yehezkiel</Emphasize>👌🏻
         </h1>
         <p className="md:max-w-lg">
-          I’m a highly curious 🤔 software developer 😳 that’s highly passionate
+          I&apos;m a highly curious 🤔 software developer 😳 that’s highly passionate
           about ✨ latest and upcoming tech ✨ in web 🌎 and mobile 🤳
           development.
         </p>
