@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex flex-col space-y-4 justify-center content-center w-full md:w-4/5">
         <Emphasize customClass={"text-4xl"}>こんにちは!</Emphasize>
         <h1 className="w-full">
-          I'm <Emphasize type="1">Yehezkiel</Emphasize>👌🏻
+          I&apos;m <Emphasize type="1">Yehezkiel</Emphasize>👌🏻
         </h1>
         <p className="md:max-w-lg">
           I&apos;m a highly curious 🤔 software developer 😳 that&apos;s highly passionate
