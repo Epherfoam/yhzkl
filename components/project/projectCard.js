@@ -7,7 +7,7 @@ const ProjectCard = () => {
                 <div className="flex justify-between flex-col px-6 md:px-0 md:flex-row">
                     <span>
                         <img src="/images/MbakkuLogo.svg" className="py-10 pb-4" />
-                        <p>Mbakku is a mobile app solution that ease out to find a maid assistant.</p>
+                        <p>Mbakku is a mobile app solution that eases out the process of finding maids providing their services.</p>
                         <div className="py-4">
                             <h6 className="text-amber-400">Role:</h6>
                             <p>Frontend engineer</p>
