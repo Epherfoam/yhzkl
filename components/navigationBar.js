@@ -30,7 +30,7 @@ const NavigationBar = () => {
                         </Link>
                     </div>
                     {/* less than medium (mobile user) */}
-                    <div className="space-x-8 md:hidden px-10" >
+                    <div className="md:hidden">
                         <button onClick={() => setExpand(isExpand ? false : true)}>
                             <img src={!isExpand ? "/images/HamburgerMenu.svg" : "/images/CrossingMenu.svg"} className="h-6" />
                         </button>
