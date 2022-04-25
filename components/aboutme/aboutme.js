@@ -70,6 +70,7 @@ const AboutMe = () => {
                 If you have anything to discuss with me, feel free to hit me up by 
                 <a href="mailto:yehezkielandrean2000@gmail.com"
                    target="_blank"
+                   rel="noopener noreferrer"
                 > Email </a> 
                 or if you’re one of those Twitter 🕊️ guys, I accept DMs too 📩. 
             </Paragraph>

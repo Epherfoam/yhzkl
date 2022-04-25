@@ -17,17 +17,23 @@ const Hero = () => {
           <a
             href="https://www.linkedin.com/in/yehezkiel-andrean-a32147193/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             LinkedIn
           </a>{" "}
           / <a 
               href="https://twitter.com/yhzkl_a"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+          >
                 Twitter
           </a>{" "}
           / <a
               href="https://github.com/Epherfoam/"
-              target="_blank">GitHub
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+                GitHub
           </a>
         </div>
       </div>
