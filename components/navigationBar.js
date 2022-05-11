@@ -9,7 +9,7 @@ const NavigationBar = () => {
     const [isExpand, setExpand] = useState(false)
 
     return (
-        <div className="py-8 fixed top-0 w-screen bg-neutral-900">
+        <div className="py-4 md:py-8 fixed top-0 w-screen bg-neutral-900">
             <Container>
                 <div className="flex justify-between">
                     <NextLink href="/">
@@ -28,14 +28,14 @@ const NavigationBar = () => {
                         <Link href='/projects'>
                             Projects
                         </Link>
-                        {/* <Link href='/resume'>
+                        <Link href='/resume'>
                             Resume
-                        </Link> */}
+                        </Link>
                     </div>
                     {/* less than medium (mobile user) */}
                     <div className="md:hidden">
                         <button onClick={() => setExpand(isExpand ? false : true)}>
-                            <img src={!isExpand ? "/images/HamburgerMenu.svg" : "/images/CrossingMenu.svg"} className="h-6" />
+                            <img src={!isExpand ? "/images/HamburgerMenu.svg" : "/images/CrossingMenu.svg"} className={"h-4 md:h-6"} />
                         </button>
                     </div>
                 </div>

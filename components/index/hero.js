@@ -2,7 +2,7 @@ import Emphasize from "../emphasize";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse text-center h-screen justify-center pt-40 md:pt-0 md:flex-row md:justify-between md:text-left w-full">
+    <div className="flex flex-col-reverse text-center h-screen justify-center md:flex-row md:justify-between md:text-left w-full">
       <div className="flex flex-col space-y-4 justify-center content-center w-full md:w-4/5">
         <Emphasize customClass={"text-4xl"}>こんにちわssup!</Emphasize>
         <h1 className="w-full">
