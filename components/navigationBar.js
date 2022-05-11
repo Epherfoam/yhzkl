@@ -9,7 +9,7 @@ const NavigationBar = () => {
     const [isExpand, setExpand] = useState(false)
 
     return (
-        <div className="py-4 md:py-8 fixed top-0 w-screen bg-neutral-900">
+        <div className="py-3 md:py-8 fixed top-0 w-screen bg-neutral-900">
             <Container>
                 <div className="flex justify-between">
                     <NextLink href="/">
