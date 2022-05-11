@@ -28,6 +28,9 @@ const NavigationBar = () => {
                         <Link href='/projects'>
                             Projects
                         </Link>
+                        {/* <Link href='/resume'>
+                            Resume
+                        </Link> */}
                     </div>
                     {/* less than medium (mobile user) */}
                     <div className="md:hidden">
